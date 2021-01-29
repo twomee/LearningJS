@@ -11,6 +11,7 @@ getCurrencyRate(
     }
 );
 
+//2-----------------------------------
 function getFileFromHardDisk(filename, cb){
     setTimeout(() => {
         let result = cb(filename);
